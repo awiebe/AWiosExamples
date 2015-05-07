@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82624831712902000B0024C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82624821712902000B0024C /* MobileCoreServices.framework */; };
+		F826248617129C2B00B0024C /* AWBucketListEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F826248517129C2B00B0024C /* AWBucketListEntry.m */; };
+		F830E658170D742C00C5ABE1 /* AWBucketList.m in Sources */ = {isa = PBXBuildFile; fileRef = F830E657170D742C00C5ABE1 /* AWBucketList.m */; };
+		F830E65B170D7D4200C5ABE1 /* AWEntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F830E65A170D7D4200C5ABE1 /* AWEntryDetailViewController.m */; };
+		F86227F917042B3900607325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86227F817042B3900607325 /* UIKit.framework */; };
+		F86227FB17042B3900607325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86227FA17042B3900607325 /* Foundation.framework */; };
+		F86227FD17042B3900607325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86227FC17042B3900607325 /* CoreGraphics.framework */; };
+		F862280317042B3A00607325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F862280117042B3A00607325 /* InfoPlist.strings */; };
+		F862280517042B3A00607325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F862280417042B3A00607325 /* main.m */; };
+		F862280917042B3A00607325 /* AWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F862280817042B3A00607325 /* AWAppDelegate.m */; };
+		F862280B17042B3A00607325 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F862280A17042B3A00607325 /* Default.png */; };
+		F862280D17042B3A00607325 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F862280C17042B3A00607325 /* Default@2x.png */; };
+		F862280F17042B3A00607325 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F862280E17042B3A00607325 /* Default-568h@2x.png */; };
+		F862281217042B3A00607325 /* AWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F862281117042B3A00607325 /* AWViewController.m */; };
+		F862281517042B3A00607325 /* AWViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F862281317042B3A00607325 /* AWViewController_iPhone.xib */; };
+		F862281817042B3A00607325 /* AWViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F862281617042B3A00607325 /* AWViewController_iPad.xib */; };
+		F8622820170430C400607325 /* AWLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F862281F170430C400607325 /* AWLocationManager.m */; };
+		F862282217043B6400607325 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F862282117043B6400607325 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F82624821712902000B0024C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F826248417129C2B00B0024C /* AWBucketListEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWBucketListEntry.h; sourceTree = "<group>"; };
+		F826248517129C2B00B0024C /* AWBucketListEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWBucketListEntry.m; sourceTree = "<group>"; };
+		F830E656170D742C00C5ABE1 /* AWBucketList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWBucketList.h; sourceTree = "<group>"; };
+		F830E657170D742C00C5ABE1 /* AWBucketList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWBucketList.m; sourceTree = "<group>"; };
+		F830E659170D7D4200C5ABE1 /* AWEntryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEntryDetailViewController.h; sourceTree = "<group>"; };
+		F830E65A170D7D4200C5ABE1 /* AWEntryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEntryDetailViewController.m; sourceTree = "<group>"; };
+		F830E65C170D81E100C5ABE1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F86227F517042B3900607325 /* AWBucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWBucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86227F817042B3900607325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F86227FA17042B3900607325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F86227FC17042B3900607325 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F862280017042B3A00607325 /* AWBucketList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AWBucketList-Info.plist"; sourceTree = "<group>"; };
+		F862280217042B3A00607325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F862280417042B3A00607325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F862280617042B3A00607325 /* AWBucketList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWBucketList-Prefix.pch"; sourceTree = "<group>"; };
+		F862280717042B3A00607325 /* AWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWAppDelegate.h; sourceTree = "<group>"; };
+		F862280817042B3A00607325 /* AWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAppDelegate.m; sourceTree = "<group>"; };
+		F862280A17042B3A00607325 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F862280C17042B3A00607325 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F862280E17042B3A00607325 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F862281017042B3A00607325 /* AWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWViewController.h; sourceTree = "<group>"; };
+		F862281117042B3A00607325 /* AWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWViewController.m; sourceTree = "<group>"; };
+		F862281417042B3A00607325 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AWViewController_iPhone.xib; sourceTree = "<group>"; };
+		F862281717042B3A00607325 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AWViewController_iPad.xib; sourceTree = "<group>"; };
+		F862281E170430C400607325 /* AWLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWLocationManager.h; sourceTree = "<group>"; };
+		F862281F170430C400607325 /* AWLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWLocationManager.m; sourceTree = "<group>"; };
+		F862282117043B6400607325 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F86227F217042B3900607325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82624831712902000B0024C /* MobileCoreServices.framework in Frameworks */,
+				F862282217043B6400607325 /* CoreLocation.framework in Frameworks */,
+				F86227F917042B3900607325 /* UIKit.framework in Frameworks */,
+				F86227FB17042B3900607325 /* Foundation.framework in Frameworks */,
+				F86227FD17042B3900607325 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F86227EC17042B3900607325 = {
+			isa = PBXGroup;
+			children = (
+				F82624821712902000B0024C /* MobileCoreServices.framework */,
+				F830E65C170D81E100C5ABE1 /* MapKit.framework */,
+				F862282117043B6400607325 /* CoreLocation.framework */,
+				F86227FE17042B3A00607325 /* AWBucketList */,
+				F86227F717042B3900607325 /* Frameworks */,
+				F86227F617042B3900607325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F86227F617042B3900607325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F86227F517042B3900607325 /* AWBucketList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F86227F717042B3900607325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F86227F817042B3900607325 /* UIKit.framework */,
+				F86227FA17042B3900607325 /* Foundation.framework */,
+				F86227FC17042B3900607325 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F86227FE17042B3A00607325 /* AWBucketList */ = {
+			isa = PBXGroup;
+			children = (
+				F862281317042B3A00607325 /* AWViewController_iPhone.xib */,
+				F862281617042B3A00607325 /* AWViewController_iPad.xib */,
+				F862280717042B3A00607325 /* AWAppDelegate.h */,
+				F862280817042B3A00607325 /* AWAppDelegate.m */,
+				F862281017042B3A00607325 /* AWViewController.h */,
+				F862281117042B3A00607325 /* AWViewController.m */,
+				F862281E170430C400607325 /* AWLocationManager.h */,
+				F862281F170430C400607325 /* AWLocationManager.m */,
+				F826248417129C2B00B0024C /* AWBucketListEntry.h */,
+				F826248517129C2B00B0024C /* AWBucketListEntry.m */,
+				F830E656170D742C00C5ABE1 /* AWBucketList.h */,
+				F830E657170D742C00C5ABE1 /* AWBucketList.m */,
+				F830E659170D7D4200C5ABE1 /* AWEntryDetailViewController.h */,
+				F830E65A170D7D4200C5ABE1 /* AWEntryDetailViewController.m */,
+				F86227FF17042B3A00607325 /* Supporting Files */,
+			);
+			path = AWBucketList;
+			sourceTree = "<group>";
+		};
+		F86227FF17042B3A00607325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F862280017042B3A00607325 /* AWBucketList-Info.plist */,
+				F862280117042B3A00607325 /* InfoPlist.strings */,
+				F862280417042B3A00607325 /* main.m */,
+				F862280617042B3A00607325 /* AWBucketList-Prefix.pch */,
+				F862280A17042B3A00607325 /* Default.png */,
+				F862280C17042B3A00607325 /* Default@2x.png */,
+				F862280E17042B3A00607325 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F86227F417042B3900607325 /* AWBucketList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F862281B17042B3A00607325 /* Build configuration list for PBXNativeTarget "AWBucketList" */;
+			buildPhases = (
+				F86227F117042B3900607325 /* Sources */,
+				F86227F217042B3900607325 /* Frameworks */,
+				F86227F317042B3900607325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWBucketList;
+			productName = AWBucketList;
+			productReference = F86227F517042B3900607325 /* AWBucketList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F86227ED17042B3900607325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Langara;
+			};
+			buildConfigurationList = F86227F017042B3900607325 /* Build configuration list for PBXProject "AWBucketList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F86227EC17042B3900607325;
+			productRefGroup = F86227F617042B3900607325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F86227F417042B3900607325 /* AWBucketList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F86227F317042B3900607325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F862280317042B3A00607325 /* InfoPlist.strings in Resources */,
+				F862280B17042B3A00607325 /* Default.png in Resources */,
+				F862280D17042B3A00607325 /* Default@2x.png in Resources */,
+				F862280F17042B3A00607325 /* Default-568h@2x.png in Resources */,
+				F862281517042B3A00607325 /* AWViewController_iPhone.xib in Resources */,
+				F862281817042B3A00607325 /* AWViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F86227F117042B3900607325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F862280517042B3A00607325 /* main.m in Sources */,
+				F862280917042B3A00607325 /* AWAppDelegate.m in Sources */,
+				F862281217042B3A00607325 /* AWViewController.m in Sources */,
+				F8622820170430C400607325 /* AWLocationManager.m in Sources */,
+				F830E658170D742C00C5ABE1 /* AWBucketList.m in Sources */,
+				F830E65B170D7D4200C5ABE1 /* AWEntryDetailViewController.m in Sources */,
+				F826248617129C2B00B0024C /* AWBucketListEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F862280117042B3A00607325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F862280217042B3A00607325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F862281317042B3A00607325 /* AWViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F862281417042B3A00607325 /* en */,
+			);
+			name = AWViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F862281617042B3A00607325 /* AWViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F862281717042B3A00607325 /* en */,
+			);
+			name = AWViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F862281917042B3A00607325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F862281A17042B3A00607325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F862281C17042B3A00607325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWBucketList/AWBucketList-Prefix.pch";
+				INFOPLIST_FILE = "AWBucketList/AWBucketList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F862281D17042B3A00607325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWBucketList/AWBucketList-Prefix.pch";
+				INFOPLIST_FILE = "AWBucketList/AWBucketList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F86227F017042B3900607325 /* Build configuration list for PBXProject "AWBucketList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F862281917042B3A00607325 /* Debug */,
+				F862281A17042B3A00607325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F862281B17042B3A00607325 /* Build configuration list for PBXNativeTarget "AWBucketList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F862281C17042B3A00607325 /* Debug */,
+				F862281D17042B3A00607325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F86227ED17042B3900607325 /* Project object */;
+}
