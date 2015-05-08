@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8505EB316F12F2900A4CEAC /* AWBopitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8505EB216F12F2900A4CEAC /* AWBopitModel.m */; };
+		F8505EB516F1667400A4CEAC /* options.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8505EB416F1667400A4CEAC /* options.plist */; };
+		F8EB5A0B16EE811E002EB837 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EB5A0A16EE811E002EB837 /* UIKit.framework */; };
+		F8EB5A0D16EE811E002EB837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EB5A0C16EE811E002EB837 /* Foundation.framework */; };
+		F8EB5A0F16EE811E002EB837 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EB5A0E16EE811E002EB837 /* CoreGraphics.framework */; };
+		F8EB5A1516EE811E002EB837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8EB5A1316EE811E002EB837 /* InfoPlist.strings */; };
+		F8EB5A1716EE811E002EB837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB5A1616EE811E002EB837 /* main.m */; };
+		F8EB5A1B16EE811E002EB837 /* AWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB5A1A16EE811E002EB837 /* AWAppDelegate.m */; };
+		F8EB5A1D16EE811E002EB837 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EB5A1C16EE811E002EB837 /* Default.png */; };
+		F8EB5A1F16EE811E002EB837 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EB5A1E16EE811E002EB837 /* Default@2x.png */; };
+		F8EB5A2116EE811E002EB837 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EB5A2016EE811E002EB837 /* Default-568h@2x.png */; };
+		F8EB5A2416EE811E002EB837 /* AWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB5A2316EE811E002EB837 /* AWViewController.m */; };
+		F8EB5A2716EE811E002EB837 /* AWViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8EB5A2516EE811E002EB837 /* AWViewController_iPhone.xib */; };
+		F8EB5A2A16EE811E002EB837 /* AWViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8EB5A2816EE811E002EB837 /* AWViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8505EB116F12F2900A4CEAC /* AWBopitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWBopitModel.h; sourceTree = "<group>"; };
+		F8505EB216F12F2900A4CEAC /* AWBopitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWBopitModel.m; sourceTree = "<group>"; };
+		F8505EB416F1667400A4CEAC /* options.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = options.plist; sourceTree = "<group>"; };
+		F8EB5A0716EE811E002EB837 /* BopIt Abram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BopIt Abram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EB5A0A16EE811E002EB837 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8EB5A0C16EE811E002EB837 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8EB5A0E16EE811E002EB837 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8EB5A1216EE811E002EB837 /* BopIt Abram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BopIt Abram-Info.plist"; sourceTree = "<group>"; };
+		F8EB5A1416EE811E002EB837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8EB5A1616EE811E002EB837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8EB5A1816EE811E002EB837 /* BopIt Abram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BopIt Abram-Prefix.pch"; sourceTree = "<group>"; };
+		F8EB5A1916EE811E002EB837 /* AWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWAppDelegate.h; sourceTree = "<group>"; };
+		F8EB5A1A16EE811E002EB837 /* AWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAppDelegate.m; sourceTree = "<group>"; };
+		F8EB5A1C16EE811E002EB837 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F8EB5A1E16EE811E002EB837 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F8EB5A2016EE811E002EB837 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F8EB5A2216EE811E002EB837 /* AWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWViewController.h; sourceTree = "<group>"; };
+		F8EB5A2316EE811E002EB837 /* AWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWViewController.m; sourceTree = "<group>"; };
+		F8EB5A2616EE811E002EB837 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AWViewController_iPhone.xib; sourceTree = "<group>"; };
+		F8EB5A2916EE811E002EB837 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AWViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8EB5A0416EE811E002EB837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EB5A0B16EE811E002EB837 /* UIKit.framework in Frameworks */,
+				F8EB5A0D16EE811E002EB837 /* Foundation.framework in Frameworks */,
+				F8EB5A0F16EE811E002EB837 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8EB59FE16EE811E002EB837 = {
+			isa = PBXGroup;
+			children = (
+				F8EB5A1016EE811E002EB837 /* BopIt */,
+				F8EB5A0916EE811E002EB837 /* Frameworks */,
+				F8EB5A0816EE811E002EB837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8EB5A0816EE811E002EB837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB5A0716EE811E002EB837 /* BopIt Abram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8EB5A0916EE811E002EB837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB5A0A16EE811E002EB837 /* UIKit.framework */,
+				F8EB5A0C16EE811E002EB837 /* Foundation.framework */,
+				F8EB5A0E16EE811E002EB837 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8EB5A1016EE811E002EB837 /* BopIt */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB5A1916EE811E002EB837 /* AWAppDelegate.h */,
+				F8EB5A1A16EE811E002EB837 /* AWAppDelegate.m */,
+				F8EB5A2216EE811E002EB837 /* AWViewController.h */,
+				F8EB5A2316EE811E002EB837 /* AWViewController.m */,
+				F8505EB116F12F2900A4CEAC /* AWBopitModel.h */,
+				F8505EB216F12F2900A4CEAC /* AWBopitModel.m */,
+				F8505EB416F1667400A4CEAC /* options.plist */,
+				F8EB5A2516EE811E002EB837 /* AWViewController_iPhone.xib */,
+				F8EB5A2816EE811E002EB837 /* AWViewController_iPad.xib */,
+				F8EB5A1116EE811E002EB837 /* Supporting Files */,
+			);
+			path = BopIt;
+			sourceTree = "<group>";
+		};
+		F8EB5A1116EE811E002EB837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB5A1216EE811E002EB837 /* BopIt Abram-Info.plist */,
+				F8EB5A1316EE811E002EB837 /* InfoPlist.strings */,
+				F8EB5A1616EE811E002EB837 /* main.m */,
+				F8EB5A1816EE811E002EB837 /* BopIt Abram-Prefix.pch */,
+				F8EB5A1C16EE811E002EB837 /* Default.png */,
+				F8EB5A1E16EE811E002EB837 /* Default@2x.png */,
+				F8EB5A2016EE811E002EB837 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8EB5A0616EE811E002EB837 /* BopIt Abram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EB5A2D16EE811E002EB837 /* Build configuration list for PBXNativeTarget "BopIt Abram" */;
+			buildPhases = (
+				F8EB5A0316EE811E002EB837 /* Sources */,
+				F8EB5A0416EE811E002EB837 /* Frameworks */,
+				F8EB5A0516EE811E002EB837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BopIt Abram";
+			productName = BopIt;
+			productReference = F8EB5A0716EE811E002EB837 /* BopIt Abram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8EB59FF16EE811E002EB837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "BurningThumb Software";
+			};
+			buildConfigurationList = F8EB5A0216EE811E002EB837 /* Build configuration list for PBXProject "BopIt Abram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8EB59FE16EE811E002EB837;
+			productRefGroup = F8EB5A0816EE811E002EB837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8EB5A0616EE811E002EB837 /* BopIt Abram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8EB5A0516EE811E002EB837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EB5A1516EE811E002EB837 /* InfoPlist.strings in Resources */,
+				F8EB5A1D16EE811E002EB837 /* Default.png in Resources */,
+				F8EB5A1F16EE811E002EB837 /* Default@2x.png in Resources */,
+				F8EB5A2116EE811E002EB837 /* Default-568h@2x.png in Resources */,
+				F8EB5A2716EE811E002EB837 /* AWViewController_iPhone.xib in Resources */,
+				F8EB5A2A16EE811E002EB837 /* AWViewController_iPad.xib in Resources */,
+				F8505EB516F1667400A4CEAC /* options.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8EB5A0316EE811E002EB837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EB5A1716EE811E002EB837 /* main.m in Sources */,
+				F8EB5A1B16EE811E002EB837 /* AWAppDelegate.m in Sources */,
+				F8EB5A2416EE811E002EB837 /* AWViewController.m in Sources */,
+				F8505EB316F12F2900A4CEAC /* AWBopitModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8EB5A1316EE811E002EB837 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8EB5A1416EE811E002EB837 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8EB5A2516EE811E002EB837 /* AWViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8EB5A2616EE811E002EB837 /* en */,
+			);
+			name = AWViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F8EB5A2816EE811E002EB837 /* AWViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8EB5A2916EE811E002EB837 /* en */,
+			);
+			name = AWViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8EB5A2B16EE811E002EB837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8EB5A2C16EE811E002EB837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8EB5A2E16EE811E002EB837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BopIt/BopIt Abram-Prefix.pch";
+				INFOPLIST_FILE = "BopIt/BopIt Abram-Info.plist";
+				PRODUCT_NAME = "BopIt Abram";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8EB5A2F16EE811E002EB837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BopIt/BopIt Abram-Prefix.pch";
+				INFOPLIST_FILE = "BopIt/BopIt Abram-Info.plist";
+				PRODUCT_NAME = "BopIt Abram";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8EB5A0216EE811E002EB837 /* Build configuration list for PBXProject "BopIt Abram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EB5A2B16EE811E002EB837 /* Debug */,
+				F8EB5A2C16EE811E002EB837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EB5A2D16EE811E002EB837 /* Build configuration list for PBXNativeTarget "BopIt Abram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EB5A2E16EE811E002EB837 /* Debug */,
+				F8EB5A2F16EE811E002EB837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8EB59FF16EE811E002EB837 /* Project object */;
+}

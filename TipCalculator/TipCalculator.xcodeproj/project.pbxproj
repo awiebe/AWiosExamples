@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8946EE116DAC80200F23B93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8946EE016DAC80200F23B93 /* UIKit.framework */; };
+		F8946EE316DAC80200F23B93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8946EE216DAC80200F23B93 /* Foundation.framework */; };
+		F8946EE516DAC80200F23B93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8946EE416DAC80200F23B93 /* CoreGraphics.framework */; };
+		F8946EEB16DAC80200F23B93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8946EE916DAC80200F23B93 /* InfoPlist.strings */; };
+		F8946EED16DAC80200F23B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946EEC16DAC80200F23B93 /* main.m */; };
+		F8946EF116DAC80200F23B93 /* AWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946EF016DAC80200F23B93 /* AWAppDelegate.m */; };
+		F8946EF316DAC80200F23B93 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8946EF216DAC80200F23B93 /* Default.png */; };
+		F8946EF516DAC80200F23B93 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8946EF416DAC80200F23B93 /* Default@2x.png */; };
+		F8946EF716DAC80200F23B93 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8946EF616DAC80200F23B93 /* Default-568h@2x.png */; };
+		F8946EFA16DAC80200F23B93 /* AWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946EF916DAC80200F23B93 /* AWViewController.m */; };
+		F8946EFD16DAC80200F23B93 /* AWViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8946EFB16DAC80200F23B93 /* AWViewController_iPhone.xib */; };
+		F8946F0016DAC80300F23B93 /* AWViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8946EFE16DAC80300F23B93 /* AWViewController_iPad.xib */; };
+		F8946F0816DB0A4000F23B93 /* AWTipController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946F0716DB0A4000F23B93 /* AWTipController.m */; };
+		F8946F0A16DB19F100F23B93 /* percentages.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8946F0916DB19F100F23B93 /* percentages.plist */; };
+		F8946F0D16DB215D00F23B93 /* AWTipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946F0C16DB215D00F23B93 /* AWTipModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8946EDD16DAC80200F23B93 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8946EE016DAC80200F23B93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8946EE216DAC80200F23B93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8946EE416DAC80200F23B93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8946EE816DAC80200F23B93 /* TipCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipCalculator-Info.plist"; sourceTree = "<group>"; };
+		F8946EEA16DAC80200F23B93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8946EEC16DAC80200F23B93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8946EEE16DAC80200F23B93 /* TipCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TipCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		F8946EEF16DAC80200F23B93 /* AWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWAppDelegate.h; sourceTree = "<group>"; };
+		F8946EF016DAC80200F23B93 /* AWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAppDelegate.m; sourceTree = "<group>"; };
+		F8946EF216DAC80200F23B93 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F8946EF416DAC80200F23B93 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F8946EF616DAC80200F23B93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F8946EF816DAC80200F23B93 /* AWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWViewController.h; sourceTree = "<group>"; };
+		F8946EF916DAC80200F23B93 /* AWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWViewController.m; sourceTree = "<group>"; };
+		F8946EFC16DAC80200F23B93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AWViewController_iPhone.xib; sourceTree = "<group>"; };
+		F8946EFF16DAC80300F23B93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AWViewController_iPad.xib; sourceTree = "<group>"; };
+		F8946F0616DB0A4000F23B93 /* AWTipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTipController.h; sourceTree = "<group>"; };
+		F8946F0716DB0A4000F23B93 /* AWTipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTipController.m; sourceTree = "<group>"; };
+		F8946F0916DB19F100F23B93 /* percentages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = percentages.plist; sourceTree = "<group>"; };
+		F8946F0B16DB215D00F23B93 /* AWTipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTipModel.h; sourceTree = "<group>"; };
+		F8946F0C16DB215D00F23B93 /* AWTipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTipModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8946EDA16DAC80200F23B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8946EE116DAC80200F23B93 /* UIKit.framework in Frameworks */,
+				F8946EE316DAC80200F23B93 /* Foundation.framework in Frameworks */,
+				F8946EE516DAC80200F23B93 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8946ED416DAC80200F23B93 = {
+			isa = PBXGroup;
+			children = (
+				F8946EE616DAC80200F23B93 /* TipCalculator */,
+				F8946EDF16DAC80200F23B93 /* Frameworks */,
+				F8946EDE16DAC80200F23B93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8946EDE16DAC80200F23B93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8946EDD16DAC80200F23B93 /* TipCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8946EDF16DAC80200F23B93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8946EE016DAC80200F23B93 /* UIKit.framework */,
+				F8946EE216DAC80200F23B93 /* Foundation.framework */,
+				F8946EE416DAC80200F23B93 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8946EE616DAC80200F23B93 /* TipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F8946EEF16DAC80200F23B93 /* AWAppDelegate.h */,
+				F8946EF016DAC80200F23B93 /* AWAppDelegate.m */,
+				F8946EF816DAC80200F23B93 /* AWViewController.h */,
+				F8946EF916DAC80200F23B93 /* AWViewController.m */,
+				F8946EFB16DAC80200F23B93 /* AWViewController_iPhone.xib */,
+				F8946F0616DB0A4000F23B93 /* AWTipController.h */,
+				F8946F0716DB0A4000F23B93 /* AWTipController.m */,
+				F8946F0B16DB215D00F23B93 /* AWTipModel.h */,
+				F8946F0C16DB215D00F23B93 /* AWTipModel.m */,
+				F8946F0916DB19F100F23B93 /* percentages.plist */,
+				F8946EFE16DAC80300F23B93 /* AWViewController_iPad.xib */,
+				F8946EE716DAC80200F23B93 /* Supporting Files */,
+			);
+			path = TipCalculator;
+			sourceTree = "<group>";
+		};
+		F8946EE716DAC80200F23B93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8946EE816DAC80200F23B93 /* TipCalculator-Info.plist */,
+				F8946EE916DAC80200F23B93 /* InfoPlist.strings */,
+				F8946EEC16DAC80200F23B93 /* main.m */,
+				F8946EEE16DAC80200F23B93 /* TipCalculator-Prefix.pch */,
+				F8946EF216DAC80200F23B93 /* Default.png */,
+				F8946EF416DAC80200F23B93 /* Default@2x.png */,
+				F8946EF616DAC80200F23B93 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8946EDC16DAC80200F23B93 /* TipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8946F0316DAC80300F23B93 /* Build configuration list for PBXNativeTarget "TipCalculator" */;
+			buildPhases = (
+				F8946ED916DAC80200F23B93 /* Sources */,
+				F8946EDA16DAC80200F23B93 /* Frameworks */,
+				F8946EDB16DAC80200F23B93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipCalculator;
+			productName = TipCalculator;
+			productReference = F8946EDD16DAC80200F23B93 /* TipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8946ED516DAC80200F23B93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "BurningThumb Software";
+			};
+			buildConfigurationList = F8946ED816DAC80200F23B93 /* Build configuration list for PBXProject "TipCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8946ED416DAC80200F23B93;
+			productRefGroup = F8946EDE16DAC80200F23B93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8946EDC16DAC80200F23B93 /* TipCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8946EDB16DAC80200F23B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8946EEB16DAC80200F23B93 /* InfoPlist.strings in Resources */,
+				F8946EF316DAC80200F23B93 /* Default.png in Resources */,
+				F8946EF516DAC80200F23B93 /* Default@2x.png in Resources */,
+				F8946EF716DAC80200F23B93 /* Default-568h@2x.png in Resources */,
+				F8946EFD16DAC80200F23B93 /* AWViewController_iPhone.xib in Resources */,
+				F8946F0016DAC80300F23B93 /* AWViewController_iPad.xib in Resources */,
+				F8946F0A16DB19F100F23B93 /* percentages.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8946ED916DAC80200F23B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8946EED16DAC80200F23B93 /* main.m in Sources */,
+				F8946EF116DAC80200F23B93 /* AWAppDelegate.m in Sources */,
+				F8946EFA16DAC80200F23B93 /* AWViewController.m in Sources */,
+				F8946F0816DB0A4000F23B93 /* AWTipController.m in Sources */,
+				F8946F0D16DB215D00F23B93 /* AWTipModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8946EE916DAC80200F23B93 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8946EEA16DAC80200F23B93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8946EFB16DAC80200F23B93 /* AWViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8946EFC16DAC80200F23B93 /* en */,
+			);
+			name = AWViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F8946EFE16DAC80300F23B93 /* AWViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8946EFF16DAC80300F23B93 /* en */,
+			);
+			name = AWViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8946F0116DAC80300F23B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8946F0216DAC80300F23B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8946F0416DAC80300F23B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
+				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8946F0516DAC80300F23B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
+				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8946ED816DAC80200F23B93 /* Build configuration list for PBXProject "TipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8946F0116DAC80300F23B93 /* Debug */,
+				F8946F0216DAC80300F23B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8946F0316DAC80300F23B93 /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8946F0416DAC80300F23B93 /* Debug */,
+				F8946F0516DAC80300F23B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8946ED516DAC80200F23B93 /* Project object */;
+}
